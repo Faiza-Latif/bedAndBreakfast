@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bedandbreakfast-48971",
+  "private_key_id": "801bbc26f4100c619affdcfb09749be1e0869eb3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjk+1mmljanRIH\ne/l30GUQWl9c/+zAOy2TEdrOnlUEde3PJRXuT2G3JQJSzNmwR0IJGMinD7pTiMM2\nNjwnGhJ/PPwWOsB8a5RPzpmpod0KbLgdLxUoz4bTbXI9Y1leUztUws45x14E9MX7\nnh1QQvwHtc3N5STvVtUR9pDGc8yMBTsxmLsl4fAwp82SHWaE/jdQFTcpl2WqV6aQ\n9qaYn7CT8ABlyqmKZTtysGpZoCvaXyJsmFcDDOQqSvH0zDCnWlsOGnDvF7rCPG5A\nFu9mLyXpG2yPswuCNsyXKwTLgZFsYTv+yvGr0OxFwZMpa5Ql2GDfXBrXpl6HAzYu\nbXYkrvTFAgMBAAECggEABJpp1JiU1ggUBQ5l0YuVgH2Oj/MqwikYKfqXZfeaLF82\nMz1XreZheVIrC9H0cUu8Db37DYp5g5bGaYziqfYHnbmFXYnHN2kemhVWCSpDKmMv\nVjDoP0cBxArhK12Tmv4sHgFCZOlZmbmapa9II2VTKtNgqIHhhXOz2MbPwanqEGmc\nvFmAysjwIhKPOogEbxBkAWIVBhIOziBJJw35rSZO9tz58Gz8DCScpZYLuuKiLi2+\n44b476Oct18LySvmk42BwO6MZqMeSBRue2la/V/WyH2ufnY3NTrrwzXqjkmajUF9\nO028MvlU6LY5GhvxeeYyQF1HOs2+eDKmW1iMnE1yqQKBgQDZQ5PMwjoSC8RjAKyn\ne6Na6DuvaBHOE3KQakW+xcFC4vk0uguYTg/hqhWGz0I9bhHZqx2y+dJYXxwL2kJV\nrFaUKCMCjz1JWvll+ENeyMJ6UG+PWGsjN+ixJpGYXDOtycZfawNutByoUlhJEAaf\nELpsgNgeOb0wjJPvkKbwtgunrQKBgQDAvf4cHzDHwnIJSNfr5UEIXtCf7CAJCnni\n/LfQYdhW+NdQLa7Ujt5Q1myw0KiIUd5vaT//q3S6OlVcr7uwO8rtLwIJ4pMkBitk\nMcc5etmUVapxg6qlomWRKsDO/wUJTozGMDAauiNCl2WRQzRcsPEZHFV48cFxK5dr\nQz/zfoYEeQKBgQCqgQY04xh/oQx2Rck5hyYj6a0tcxbGCy0VeNFTbg7FVysL3hXL\naTe9eaV7LpxlaURI9qlQFA6nm7x+8MKuSZmInBcdoxwNvX+MLtFwSU2WgBmM/W7X\nLMFIhWQtle5YrMkpiOogrujuj/EJJbKMkqw7CsKQte9rcmeG0pawwa1T4QKBgBDN\n/+PPzF7+UxcAJONKX7stGR94ZOqk4S+rPROMFGKw24UAFqgttLBzoZJg/vCzwqMQ\nGCZgepLqFxs3rzOUYwL/ADyAZrfTWeEofehDD8lhFrVC95PtbtGTWrAxh+zhzmBR\nP0B1TjG2JYLeyyfxvXOlBsa+vVDyrgcKG/9M3r5xAoGAdBJOvlI3hEHZ6lIkFj4k\ncrIKLlezvCglbQ5/TUBE4+UXkpsSuK1q3ds8dBRu5ht/PhGnHWQa1WqPZ8Uhx4Fe\nGfckN2CqcA9nuyCc7zQloRTOcby5KC+LmbvbbNPD8QFttD/NAYB9/FZEH46z2fQl\nMOqA8Lqsx+M+TzzMdHSh1zk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-j9w5n@bedandbreakfast-48971.iam.gserviceaccount.com",
+  "client_id": "109967270645258110956",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-j9w5n%40bedandbreakfast-48971.iam.gserviceaccount.com"
+}

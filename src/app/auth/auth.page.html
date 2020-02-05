@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ isLogin? 'Login' : 'Sign Up'}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!--template driven-->
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+  <ion-grid>
+    <ion-row>
+      <ion-col size-sm="6" offset-sm="3">
+        <ion-list>
+          <!-- ion-item can be used outside of an ion-list, with this two it will render some cool styles -->
+          <ion-item>
+            <ion-label position="floating"> Email </ion-label>
+            <ion-input ngModel name="email" type="email" required email #emailCtrl="ngModel"></ion-input>
+          </ion-item>
+          <ion-item *ngIf="!emailCtrl.valid && emailCtrl.touched" lines="none">
+            <ion-label >Email invalid</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating"> Password </ion-label>
+            <ion-input ngModel name="password"  type="password" minlength="6" required #passCtrl="ngModel"></ion-input>
+          </ion-item>
+          <ion-item *ngIf="!passCtrl.valid && passCtrl.touched" lines="none">
+            <ion-label >Password Invalid</ion-label>
+          </ion-item>
+
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size-sm="6" offset-sm="3">
+        <ion-button type="button" color="primary" fill="clear" (click)="onSwitchAuthMode()" expand="full">Switch to {{ isLogin? 'Sign Up' : 'Login'}}</ion-button>
+        <ion-button type="submit" color="primary" expand="block" [disabled]="!f.valid">{{ isLogin? 'Login' : 'Sign Up'}}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</form>
+
+  <!-- <div text-center>
+    <ion-spinner color="primary" *ngIf="isLoading"></ion-spinner>
+  </div> -->
+
+
+  <!-- o expand é para por um botao por linha. para nao serem inline.. we can assign to full or block (keeps the left-right edges) 
+  fill="outline" fica só com as linhas externas borders-->
+</ion-content>

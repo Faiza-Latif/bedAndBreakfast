@@ -1,0 +1,8 @@
+{
+  "appId": "com.company.faiza",
+  "appName": "BedAndBreakfast",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

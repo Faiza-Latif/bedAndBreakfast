@@ -1,0 +1,17 @@
+.location-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.picker {
+    width: 30rem;
+    max-width: 80%; //on smaller devices
+    height: 20rem;
+    max-height: 30vh; //30% of the viewPort
+    border: 1px solid var(--ion-color-primary);
+    margin: auto; //center horizontaly the div
+    display: flex;
+    justify-content: center; //center the inner content
+    align-items: center; //center the inner content
+}
